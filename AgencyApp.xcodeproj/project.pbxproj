@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0828F9D62B6EB74700513277 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828F9D52B6EB74700513277 /* Inbox.swift */; };
+		0828F9D82B6EB75600513277 /* Viewings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828F9D72B6EB75600513277 /* Viewings.swift */; };
+		0828F9DA2B6EB76A00513277 /* Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828F9D92B6EB76A00513277 /* Listings.swift */; };
+		0828F9DC2B6ECE3000513277 /* Messages_Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0828F9DB2B6ECE3000513277 /* Messages_Template.swift */; };
 		084D909A2B6EB27200CA8FEA /* AgencyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D90992B6EB27200CA8FEA /* AgencyAppApp.swift */; };
 		084D909C2B6EB27200CA8FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D909B2B6EB27200CA8FEA /* ContentView.swift */; };
 		084D909E2B6EB27500CA8FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084D909D2B6EB27500CA8FEA /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0828F9D52B6EB74700513277 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		0828F9D72B6EB75600513277 /* Viewings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewings.swift; sourceTree = "<group>"; };
+		0828F9D92B6EB76A00513277 /* Listings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listings.swift; sourceTree = "<group>"; };
+		0828F9DB2B6ECE3000513277 /* Messages_Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages_Template.swift; sourceTree = "<group>"; };
 		084D90962B6EB27200CA8FEA /* AgencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		084D90992B6EB27200CA8FEA /* AgencyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyAppApp.swift; sourceTree = "<group>"; };
 		084D909B2B6EB27200CA8FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,10 @@
 			children = (
 				084D90992B6EB27200CA8FEA /* AgencyAppApp.swift */,
 				084D909B2B6EB27200CA8FEA /* ContentView.swift */,
+				0828F9D52B6EB74700513277 /* Inbox.swift */,
+				0828F9DB2B6ECE3000513277 /* Messages_Template.swift */,
+				0828F9D72B6EB75600513277 /* Viewings.swift */,
+				0828F9D92B6EB76A00513277 /* Listings.swift */,
 				084D909D2B6EB27500CA8FEA /* Assets.xcassets */,
 				084D909F2B6EB27500CA8FEA /* AgencyApp.entitlements */,
 				084D90A02B6EB27500CA8FEA /* Preview Content */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0828F9D62B6EB74700513277 /* Inbox.swift in Sources */,
+				0828F9DA2B6EB76A00513277 /* Listings.swift in Sources */,
+				0828F9D82B6EB75600513277 /* Viewings.swift in Sources */,
 				084D909C2B6EB27200CA8FEA /* ContentView.swift in Sources */,
 				084D909A2B6EB27200CA8FEA /* AgencyAppApp.swift in Sources */,
+				0828F9DC2B6ECE3000513277 /* Messages_Template.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
