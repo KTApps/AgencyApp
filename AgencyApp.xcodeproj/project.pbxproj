@@ -18,6 +18,11 @@
 		084D90AC2B6EB27500CA8FEA /* AgencyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D90AB2B6EB27500CA8FEA /* AgencyAppTests.swift */; };
 		084D90B62B6EB27500CA8FEA /* AgencyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D90B52B6EB27500CA8FEA /* AgencyAppUITests.swift */; };
 		084D90B82B6EB27500CA8FEA /* AgencyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D90B72B6EB27500CA8FEA /* AgencyAppUITestsLaunchTests.swift */; };
+		08BFE3ED2B72A964003FFEC9 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFE3EC2B72A964003FFEC9 /* Messages.swift */; };
+		08BFE3EF2B72B195003FFEC9 /* ViewingsScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFE3EE2B72B195003FFEC9 /* ViewingsScroll.swift */; };
+		08BFE3F12B72B527003FFEC9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFE3F02B72B527003FFEC9 /* Data.swift */; };
+		08BFE3F32B72B567003FFEC9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFE3F22B72B567003FFEC9 /* CardView.swift */; };
+		08BFE3F52B72BD17003FFEC9 /* SearchAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFE3F42B72BD17003FFEC9 /* SearchAlg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		084D90B12B6EB27500CA8FEA /* AgencyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgencyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		084D90B52B6EB27500CA8FEA /* AgencyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyAppUITests.swift; sourceTree = "<group>"; };
 		084D90B72B6EB27500CA8FEA /* AgencyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08BFE3EC2B72A964003FFEC9 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		08BFE3EE2B72B195003FFEC9 /* ViewingsScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewingsScroll.swift; sourceTree = "<group>"; };
+		08BFE3F02B72B527003FFEC9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		08BFE3F22B72B567003FFEC9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		08BFE3F42B72BD17003FFEC9 /* SearchAlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				084D90992B6EB27200CA8FEA /* AgencyAppApp.swift */,
 				084D909B2B6EB27200CA8FEA /* ContentView.swift */,
 				0828F9D52B6EB74700513277 /* Inbox.swift */,
+				08BFE3EC2B72A964003FFEC9 /* Messages.swift */,
+				08BFE3EE2B72B195003FFEC9 /* ViewingsScroll.swift */,
+				08BFE3F42B72BD17003FFEC9 /* SearchAlg.swift */,
+				08BFE3F02B72B527003FFEC9 /* Data.swift */,
+				08BFE3F22B72B567003FFEC9 /* CardView.swift */,
 				0828F9DB2B6ECE3000513277 /* Messages_Template.swift */,
 				0828F9D72B6EB75600513277 /* Viewings.swift */,
 				0828F9D92B6EB76A00513277 /* Listings.swift */,
@@ -273,9 +288,14 @@
 			files = (
 				0828F9D62B6EB74700513277 /* Inbox.swift in Sources */,
 				0828F9DA2B6EB76A00513277 /* Listings.swift in Sources */,
+				08BFE3EF2B72B195003FFEC9 /* ViewingsScroll.swift in Sources */,
 				0828F9D82B6EB75600513277 /* Viewings.swift in Sources */,
+				08BFE3F32B72B567003FFEC9 /* CardView.swift in Sources */,
+				08BFE3ED2B72A964003FFEC9 /* Messages.swift in Sources */,
 				084D909C2B6EB27200CA8FEA /* ContentView.swift in Sources */,
 				084D909A2B6EB27200CA8FEA /* AgencyAppApp.swift in Sources */,
+				08BFE3F12B72B527003FFEC9 /* Data.swift in Sources */,
+				08BFE3F52B72BD17003FFEC9 /* SearchAlg.swift in Sources */,
 				0828F9DC2B6ECE3000513277 /* Messages_Template.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

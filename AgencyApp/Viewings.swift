@@ -11,49 +11,63 @@ struct Viewings: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         NavigationView {
-            VStack {
-                HStack {
-                    Button(action: {
-                        presentationMode.wrappedValue.dismiss()
-                    }) {
-                        Image(systemName: "chevron.left")
-                            .foregroundColor(.blue)
-                            .font(.title)
+            ZStack {
+                Color.black
+                    .ignoresSafeArea()
+                VStack {
+                    
+//                MARK: TOP HStack
+                    HStack {
+                        Button(action: {
+                            presentationMode.wrappedValue.dismiss()
+                        }) {
+                            Image(systemName: "chevron.left")
+                                .foregroundColor(.blue)
+                                .font(.title)
+                        }
+                        Spacer()
+                            .frame(width: 10)
+                        Text("Name")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                        Spacer()
                     }
+                    .padding(.horizontal)
                     Spacer()
-                        .frame(width: 10)
-                    Text("Name")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
+                        .frame(height: 10)
+                    
+//                MARK: MENU HStack
+                    HStack {
+                        NavigationLink("Inbox", destination: Inbox())
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        Spacer()
+                        Text("Viewings")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .underline(true, color: .white)
+                        Spacer()
+                        NavigationLink("Listings", destination: Listings())
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                    }
+                    .padding(.horizontal, 20)
                     Spacer()
-                }
-                .padding(.horizontal)
-                Spacer()
-                    .frame(height: 10)
-                HStack {
-                    NavigationLink("Inbox", destination: Inbox())
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
-                    Spacer()
-                    Text("Viewings")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .underline(true, color: .black)
-                    Spacer()
-                    NavigationLink("Listings", destination: Listings())
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
-                }
-                .padding(.horizontal, 20)
-                Spacer()
-                    .frame(height: 5)
-                
+                        .frame(height: 5)
+                    
 //                MARK: MENU UNDERLINE HStack
-                Rectangle()
-                    .frame(height: 1)
-                Spacer()
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .frame(height: 1)
+                    Spacer()
+                    
+//                    MARK: ScrollView
+                    ViewingsScroll()
+                }
             }
         }
         .navigationBarBackButtonHidden(true)
