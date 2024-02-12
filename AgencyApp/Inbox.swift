@@ -20,7 +20,7 @@ struct Inbox: View {
                     if !isMessTempActive {
     //                MARK: TOP HStack
                         HStack {
-                            Text("Name")
+                            Text("BRANCH")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.white)
